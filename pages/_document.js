@@ -5,47 +5,33 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <meta charSet="utf-8"/>
-          <link rel="icon" href="%PUBLIC_URL%/favicon.ico"/>
-          <meta name="viewport" content="width=device-width, initial-scale=1"/>
-          <meta name="theme-color" content="#000000"/>
-          <meta name="description" content="Boring Protocol"/>
-          <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png"/>
-          <!--
-            manifest.json provides metadata used when your web app is installed on a
-            user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-          -->
-          <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
-          <!--
-            Notice the use of %PUBLIC_URL% in the tags above.
-            It will be replaced with the URL of the `public` folder during the build.
-            Only files inside the `public` folder can be referenced from the HTML.
-
-            Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-            work correctly both with client-side routing and a non-root public URL.
-            Learn how to configure a non-root public URL by running `npm run build`.
-          -->
-          <link rel="preconnect" href="https://fonts.cdnfonts.com"/>
+          <meta charSet="utf-8" />
+          <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta name="theme-color" content="#000000" />
+          <meta name="description" content="Boring Protocol" />
+          <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+          <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+          <link rel="preconnect" href="https://fonts.cdnfonts.com" />
           <link
-              rel="preconnect"
-              href="https://fonts.cdnfonts.com"
-              crossOrigin="anonymous"
+            rel="preconnect"
+            href="https://fonts.cdnfonts.com"
+            crossOrigin="anonymous"
           />
-          <link rel="preconnect" href="https://fonts.googleapis.com"/>
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link
-              rel="preconnect"
-              href="https://fonts.gstatic.com"
-              crossOrigin="anonymous"
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossOrigin="anonymous"
           />
           <link
-              href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap"
-              rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap"
+            rel="stylesheet"
           />
           <link
-              rel="stylesheet"
-              href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
           />
-          <title>BOP | NFT Claim</title>
         </Head>
 
         <body>
